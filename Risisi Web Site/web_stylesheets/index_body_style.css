@@ -1,0 +1,250 @@
+*{
+	text-decoration:none;
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	font-family: 'Raleway', sans-serif;
+}
+.web_risisi_index_body{
+	position:absolute;
+	width:100%;
+	height:300%;
+	top:90%;
+	left:0px;
+}
+.web_risisi_index_body .web_risisi_index_services{
+	position:absolute;
+	width:100%;
+	height:200px;
+	top:0px;
+	left:0px;
+}
+.web_risisi_index_body .web_risisi_index_services h2{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:30px;
+	text-align:center;
+}
+
+.web_risisi_index_servicesmenu{
+	position:absolute;
+	top:40%;
+	left:0px;
+	width:100%;
+	height:650px;
+}
+.web_risisi_index_servicesmenu li{
+	position:relative;
+	float:left;
+	left:2%;
+	margin-left:5%;
+	margin-bottom:5%;
+	width:25%;
+	height:100px;
+	
+}
+.web_risisi_index_servicesmenu li #service_icon{
+	position:absolute;
+	width: 100%;
+	height:20px;
+	text-align:center;
+	top:20px;
+	color:#000;
+}
+.web_risisi_index_servicesmenu li #service_title{
+	position:absolute;
+	width: 100%;
+	height:26px;
+	text-align:center;
+	top:60%;
+	color:deepskyblue;
+	font-weight:bold;
+}
+.web_risisi_index_servicesmenu li #service_title hr{
+	position:absolute;
+	bottom:0px;
+	left:35%;
+	width:30%;
+	height:3px;
+	border:none;
+	border-radius: 5px;
+	background-color: #eee;
+}
+.web_risisi_index_servicesmenu li #service_description{
+	position: absolute;
+	bottom:0%;
+	left:0%;
+	text-align: center;
+	width:100%;
+	height:7px;
+}
+
+.web_risisi_index_servicesmenu li a i{
+	font-size: 35px;
+}
+.web_risisi_index_missionstatement{
+	position: absolute;
+	top:730px;
+	left:0px;
+	width:100%;
+	height:250px;
+	
+}
+.web_risisi_index_missionstatement #missionstatement_backgroundimg{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+}
+.web_risisi_index_missionstatement #missionstatement_shadow{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:100px;
+	height:0px;
+	opacity:.8;
+	background-color: transparent;
+	border-top: 140px solid transparent;
+  	border-bottom: 0px solid transparent; 
+  	border-left:1200px solid deepskyblue;
+}
+.web_risisi_index_missionstatement #missionstatement_description{
+	position: absolute;
+	top:30%;
+	left:10%;
+	width:30%;
+	height:50px;
+	color:#fff;
+}
+.web_risisi_index_teamlist{
+	position:absolute;
+	top:980px;
+	left:0px;
+	width:100%;
+	height:40%;
+	background-color: transparent;
+}
+.web_risisi_index_teamlist #our-team_description{
+	position: absolute;
+	top:50px;
+	left:0px;
+	width:100%;
+	height:40px;
+	text-align: center;
+}
+.web_risisi_index_teamlist #teamlist_skewright{
+	transform: skew(-2.5deg,-2.5deg);
+}
+.web_risisi_index_teamlist #teamlist_skewleft{
+	transform: skew(2.5deg,2.5deg);
+}
+.web_risisi_index_teamlist li{
+	position: relative;
+	top:5%;
+	left:5%;
+	float:left;
+	width:20%;
+	margin-left:2%;
+	margin-top:5%;
+	height:35%;
+	box-shadow: 7px 7px 10px #ccc;
+	background-color: #fff;
+}
+.web_risisi_index_teamlist li img{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:80%;
+	
+}
+.web_risisi_index_teamlist li #team_member_name{
+	position:absolute;
+	top:80%;
+	left:0px;
+	width:100%;
+	height:10%;
+	color:deepskyblue;
+}
+.web_risisi_index_teamlist li #team_member_position{
+	position:absolute;
+	top:90%;
+	left:0px;
+	width:100%;
+	height:10%;
+}
+.web_risisi_index_teamlist li #teamlink_container{
+	position: absolute;
+	top:70%;
+	left:0px;
+	width:100%;
+	height:10%;
+	display:none;
+	background-color: deepskyblue;
+}
+.web_risisi_index_teamlist li:hover #teamlink_container{
+	display:block;
+}
+.web_risisi_index_teamlist li #teamlink_container p{
+	position:absolute;
+	top:20%;
+	left:0px;
+	color:#fff;
+}
+.web_risisi_index_teamlist li #teamlink_container li{
+	position: relative;
+	top:10%;
+	left:40%;
+	float:left;
+	margin:0px;
+	margin-left:30px;
+	width:2px;
+	background-color: transparent;
+}
+.web_risisi_index_teamlist li #teamlink_container li a{
+	color:#fff;
+}
+.web_risisi_index_quoterequest{
+	position: absolute;
+	top:1770px;
+	left:0px;
+	width:100%;
+	height:10%;
+	background-color: #eee;
+}
+.web_risisi_index_quoterequest #quoterequest_button{
+	position: absolute;
+	top:35%;
+	left:30%;
+	width:20%;
+	height:50px;
+	background-color: deepskyblue;
+}
+.web_risisi_index_quoterequest #quoterequest_button h5{
+	position: absolute;
+	top:30%;
+	left:0px;
+	width:100%;
+	color:#fff;
+	text-align:center;
+}
+.web_risisi_index_quoterequest #emailus_button{
+	position: absolute;
+	top:35%;
+	left:55%;
+	width:20%;
+	height:46px;
+	border:solid;
+	border-color:deepskyblue;
+}
+.web_risisi_index_quoterequest #emailus_button h5{
+	position: absolute;
+	top:30%;
+	left:0px;
+	width:100%;
+	color:deepskyblue;
+	text-align:center;
+}
